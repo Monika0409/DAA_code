@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class odd_even {
+public class Practical5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -17,7 +17,6 @@ public class odd_even {
                 System.out.println(e[i]);
             }
         }
-
         System.out.println("The Odd number is:");
         for(int i=0; i<n; i++){
             if(a[i]%2 != 0){

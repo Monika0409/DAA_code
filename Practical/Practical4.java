@@ -1,23 +1,20 @@
 import java.util.Scanner;
-
-public class Max_min {
+public class Practical4 {
     public static int min(int arr[], int n) {
         if(n == 1){
             return arr[0];
-        }
-        else{
+        } else{
             return Math.min(arr[n-1], min(arr, n-1));
         }
     }
     public static int max(int arr[], int n) {
         if(n == 1){
             return arr[0];
-        }
-        else{
+        }else{
             return Math.max(arr[n-1], max(arr, n-1));
         }
     }
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int n = sc.nextInt();

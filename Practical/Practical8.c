@@ -11,7 +11,6 @@ void main ()
     int choice;   
     while(choice != 4)   
     {     
-        printf("\n*************************Main Menu*****************************\n");   
         printf("\n1.insert an element\n2.Delete an element\n3.Display the queue\n");  
         printf("\nEnter your choice ?");  
         scanf("%d",&choice);  
